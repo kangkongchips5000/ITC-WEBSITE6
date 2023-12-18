@@ -69,19 +69,19 @@ body {
     gap: 30px;
 }
 .first-row {
-    background-image: url(/image/bg-img-one.png);
+    background-image: url(image/bg-img-one.png);
     margin-bottom: 75px;
 }
 .second-row {
-    background-image: url(/image/bg-img-two.png);
+    background-image: url(image/bg-img-two.png);
     margin-bottom: 75px;
 }
 .third-row {
-    background-image: url(/image/bg-img-three.jpeg);
+    background-image: url(image/bg-img-three.jpeg);
     margin-bottom: 75px;
 }
 .fourth-row {
-    background-image: url(/image/bg-img-four.png);
+    background-image: url(image/bg-img-four.png);
     margin-bottom: 75px;
 }
 .section h2 {
