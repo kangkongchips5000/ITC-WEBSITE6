@@ -58,6 +58,11 @@ body {
     border-radius: 8px;
     color: #FFFFFF;
 }
+.tourist_spot_header .header-nav ul .about_us:hover {
+    background-color: #957DAD;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
 .section {
     display: flex;
     align-items: flex-end;
