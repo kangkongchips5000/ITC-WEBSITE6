@@ -63,7 +63,7 @@ body {
 .intro {
     width: 100vw;
     height: 750px;
-    background-image: url(/image/bg-img-intro.png);
+    background-image: url(image/bg-img-intro.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
