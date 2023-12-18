@@ -88,6 +88,7 @@ body {
     font-family: 'Merriweather';
     font-size: 64px;
     padding-bottom: 30px;
+    background: linear-gradient(0deg, rgba(139.60, 249.69, 100.92, 0.63) 0%, rgba(169.38, 240.80, 144.28, 0.48) 30%, rgba(218.43, 251.81, 206.70, 0.21) 64%, rgba(239.27, 255, 233.75, 0.05) 79%, rgba(0, 0, 0, 0) 94%);
     color: #000000;
     width: 100vw;
     text-align: center;
