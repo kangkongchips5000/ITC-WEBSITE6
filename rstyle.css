@@ -56,9 +56,9 @@ body{
     color: #FFFFFF;
 }
 .tourist_spot_header .header-nav ul .about_us:hover {
-    background-color: #E77CF9;
+    background-color: #fbffa1;
     border-radius: 8px;
-    color: #fbffa1;
+    color: #FFFFFF;
 }
 .container{
     position: absolute;
