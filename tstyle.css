@@ -40,7 +40,7 @@ body {
     color: #000000;
     padding: 13px 16px;
 }
-.tourist_spot_header .header-nav ul .tourist_spot:hover {
+.tourist_spot_header .header-nav ul .tourist_spot{
     background-color: #01C939;
     border-radius: 8px;
     color: #FFFFFF;
