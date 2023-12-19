@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  min-height: 500vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tourist_spot_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #FFFFFF;
+}
+.tourist_spot_header .logo {
+  font-size: 32px;
+  font-family: 'Newsreader';
+  font-weight: normal;
+  margin-left: 100px;
+}
+.tourist_spot_header .header-nav ul{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  margin-right: 100px;
+}
+.tourist_spot_header .header-nav ul a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding: 13px 16px;
+}
+.tourist_spot_header .header-nav ul .tourist_spot:hover {
+  background-color: #01C939;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .restaurants:hover {
+  background-color: #F97C7C;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .resorts:hover {
+  background-color: #FF7236;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .home:hover {
+  background-color: #E77CF9;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .about_us{
+  background-color: #957DAD;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/image/bg-img-intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Section styles */
+section {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Background per page */
+.about-section,
+.desti-section,
+.resto-section,
+.hotels-section {
+  overflow: hidden;
+  padding: 15%;
+  border-radius: 0px;
+}
+.last-section {
+  overflow:auto;
+  padding: 10%;
+  border-radius: 0px;
+}
+
+.about-section {
+  background-color: #F5F5DC;
+  background: url(image/desti2.jpg) no-repeat left;
+  background-size: 100%;
+}
+
+.desti-section {
+  background-color: #F5F5DC;
+  background: url(image/desti1.jpg) no-repeat left;
+  background-size: 100%;
+}
+
+.resto-section {
+  background-color: #e0ffffaf;
+  background: url(image/restaurants.jpg) no-repeat left;
+  background-size: 100%;
+}
+
+.hotels-section {
+  background-color: #ffe4e1c9;
+  background: url(image/room.webp) no-repeat left;
+  background-size: 100%;
+}
+
+.last-section {
+  background-color: #ffe4e18f;
+  background: url(image/568916.jpg) no-repeat left;
+  background-size: 100%;
+}
+
+
+/* Inner containers */
+
+.last-container,
+.inner-container,
+.resto-container {
+  width: 55%;
+  background-color:#fdfdfdc2;
+  padding: 10%;
+  margin: 10px 0;
+  box-sizing:content-box;
+  float:left;
+}
+.hotels-container,
+.desti-container {
+  width: 55%;
+  background-color:#fdfdfdc2;
+  padding: 10%;
+  margin: 10px 0;
+  box-sizing:content-box;
+  float:right;
+}
+
+
+/* Heading styles */
+.inner-container h1,
+.desti-container h1,
+.resto-container h1,
+.hotels-container h1,
+.last-container h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.brand {
+  font-weight: bold;
+  color: #333; /* You can adjust the color as needed */
+}
+
+/* Text styles */
+.text {
+  font-size: 20px;
+  color:#292828;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.last_text{
+  font-size: 20px;
+  color: #292828;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/* Buttons styles */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.buttons span {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+  .inner-container,
+  .desti-container,
+  .resto-container,
+  .hotels-container,
+  .last-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section,
+  .inner-container,
+  .desti-section,
+  .desti-container,
+  .resto-section,
+  .resto-container,
+  .last-section,
+  .last-container,
+  .hotels-container,
+  .hotels-section 
+  {
+    padding: 10% 5%;
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section,
+  .inner-container,
+  .desti-section,
+  .resto-section,
+  .hotels-section,
+  .last-container {
+    padding: 100%;
+  }
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3684b1;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.buttons .button:hover {
+  background-color: #555;
+}
+/*.wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icnbutton {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.wrapper.icnbutton:hover {
+  width: 200px;
+}
+
+.wrapper.icnbutton.icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper.icnbutton:hover:nth-child(1) .icon { background: #4267b2; }
+.wrapper.icnbutton:hover:nth-child(2) .icon { background: #1da1f2; }
+.wrapper.icnbutton:hover:nth-child(3) .icon { background: #e1306c; }
+.wrapper.icnbutton:hover:nth-child(4) .icon { background: #4267b2; }
+
+.wrapper.icnbutton.icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper.icnbutton:nth-child(1) span.icon { background: #4267b2; }
+.wrapper.icnbutton:nth-child(2) span.icon { background: #1da1f2; }
+.wrapper.icnbutton:nth-child(3) span.icon { background: #e1306c; }
+.wrapper.icnbutton:nth-child(4) span.icon { background: #4267b2; }
