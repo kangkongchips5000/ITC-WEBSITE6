@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather&family=Newsreader:opsz,wght@6..72,500&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  background-color: #FEF2DA;
+}
+.tourist_spot_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #FFFFFF;
+}
+.tourist_spot_header .logo {
+  font-size: 32px;
+  font-family: 'Newsreader';
+  font-weight: normal;
+  margin-left: 100px;
+}
+.tourist_spot_header .header-nav ul{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  margin-right: 100px;
+}
+.tourist_spot_header .header-nav ul a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding: 13px 16px;
+}
+.tourist_spot_header .header-nav ul .tourist_spot:hover {
+  background-color: #01C939;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .restaurants:hover {
+  background-color: #F97C7C;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .resorts{
+  background-color: #FF7236;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .home:hover {
+  background-color: #E77CF9;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.tourist_spot_header .header-nav ul .about_us:hover {
+  background-color: #957DAD;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.page-intro {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(image/bg-img-circle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.intro-content {
+  margin-left: 40px;
+  padding-top: 168px;
+  
+}
+.page-intro h3 {
+  font-family: 'Poppins';
+  font-size: 32px;
+}
+.page-intro h1 {
+  font-family: 'Merriweather';
+  font-size: 98px;
+  color: #FFFFFF;
+}
+.page-intro p {
+  font-family: 'Poppins';
+  font-size: 24px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 350px;
+}
+.page-title div {
+  padding-top: 100px;
+}
+.page-title h3 {
+  font-family: 'Poppins';
+  font-size: 32px;
+  color: #FB5A00;
+}
+.page-title h2 {
+  font-family: 'Merriweather';
+  font-size: 70px;
+  color: #100F0F;
+}
+.resort {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1090px;
+ 
+}
+.resort .intro-resort {
+  margin-left: 40px;
+  padding-top: 50px;
+}
+.resort .intro-resort h3 {
+  font-family: 'Merriweather';
+  font-size: 48px;
+  color: #FFA800;
+}
+.resort .intro-resort p {
+  font-family: 'Poppins';
+  font-size: 20px;
+  color: #000;
+}
+.book-now {
+  width: 100vw;
+  height: 100px;
+  background-color: #F99500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.book-now h3 {
+  font-family: 'Poppins';
+  font-size: 40px;
+}
+.manila {
+  background-image: url(image/bg-img-okada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cebu {
+  background-image: url(image/bg-img-shangri.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.davao {
+  background-image: url(image/bg-img-dusit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  display: flex;
+  background-color: #000;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+.footer div p {
+  font-family: 'Poppins';
+  font-size: 24px;
+  color: #FFF;
+}
