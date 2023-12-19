@@ -53,7 +53,7 @@ body {
     border-radius: 8px;
     color: #FFFFFF;
 }
-.tourist_spot_header .header-nav ul .home:hover {
+.tourist_spot_header .header-nav ul .home{
     background-color: #E77CF9;
     border-radius: 8px;
     color: #FFFFFF;
