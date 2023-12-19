@@ -40,7 +40,7 @@ body{
     border-radius: 8px;
     color: #FFFFFF;
 }
-.tourist_spot_header .header-nav ul .restaurants:hover {
+.tourist_spot_header .header-nav ul .restaurants{
     background-color: #F97C7C;
     border-radius: 8px;
     color: #FFFFFF;
